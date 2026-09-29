@@ -80,11 +80,11 @@ pip install -r requirements.txt
 python scripts/validate_repo.py
 ```
 
-To validate a single prompt, use the following command:
-```bash
-python scripts/validate_prompt.py <prompt_id>
-```
-Replace `<prompt_id>` with the ID of the prompt you want to validate.
+To validate a single prompt, use:
+
+`python scripts/validate_prompt.py prompts/raw/<prompt_id>.json`
+
+Replace `<prompt_id>` with the prompt ID (for example, `nous-central-v1`).
 
 ## Quickstart
 
